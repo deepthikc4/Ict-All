@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="success.html">
+
+<input type="text" placeholder="enter name" id="name">
+<span id="namemsg"></span>
+<br><br>
+<input type="text" placeholder="enter phone numer" id="phone">
+<span id="phonemsg"></span>
+<br><br>
+<input type="password" placeholder="enter password" id="password" >
+<div id="password-strength"></div>
+<span id="pwdmsg"></span>
+<br><br>
+<button onclick="return loginvalidate()">Login</button>
+
+    </form>
+
+
+
+    <script src="loginvalidation.js"></script>
+</body>
+</html>

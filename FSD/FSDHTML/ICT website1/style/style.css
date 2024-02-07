@@ -1,0 +1,176 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../images/book.jpg");
+    background-size: cover;
+}
+header
+{
+    background-color: black;
+}
+
+
+#logo
+{
+    width:75px ;  
+    height: 75px;  
+margin-left: 10%;
+margin-top:10px ;
+margin-bottom:5px; ;
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+    margin-right:30px ;   
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 8px ;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a :hover{
+    background-color: teal;
+    color: black;
+}
+.side
+{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* border: 1px solid red ; to find how much area allocated*/
+   float: left; 
+   margin: 100px;
+    width: 50%;
+   /* gap between heading and content  use br*/
+}
+.side li {
+list-style-type: square;
+padding: 2px ;
+}
+.login
+{
+    border: 1px solid red;
+    float:right;
+    background-color: beige;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 30px;
+    height: 15em;
+}
+.login h2{
+    text-align: center;
+}
+#btn{
+    width: 100%;
+    background-color: dodgerblue;
+    border: none;
+    height: 1.5em;
+    color: white;
+}
+
+.course-container{
+    display: flex;
+    justify-content: space-between;
+width: 90%;
+margin-top:30%;
+margin-left: 50px;
+/* border: 1px solid red; */
+}
+.course{
+   
+    width: 20%;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(227, 232, 237, 0.906);
+     margin: 10px;
+     /* float:left;  */
+   /* margin-top:100px; */
+   /* margin-left: 10px; */
+   /* margin-right: 100px; */
+   /* margin-bottom: 100px; */
+
+}
+.course h3{
+    text-align: center;
+}
+.course p{
+    text-align: justify;
+}
+
+.course a {
+    text-decoration: none;
+    color: red;
+}
+footer{
+    margin-top:30px;
+    margin-bottom: 0%;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width:100%;
+    /* border: 1px solid red; */
+}
+
+
+
+/* .content { 
+     display: flex; 
+    flex-direction: row; 
+    float:left; 
+  }
+
+
+.content .box 
+{   
+    
+    float:left;
+    border: 1px solid red;
+    background-color: rgba(227, 232, 237, 0.906);
+   margin-top:100px;
+   margin-left: 10px;
+   margin-right: 100px;
+   margin-bottom: 100px;
+padding: 50px;
+    
+   
+}
+
+
+
+
+    footer
+    {
+        background-color:black !important;
+    }
+       
+        footer h3 {
+         
+            bottom:0px;
+            text-align: center;
+            position:fixed;  
+            padding: 3px;
+            margin-left: 50%;
+            color: white;
+           
+          }
+
+
+    
+
+ 
+
+
+
+
+

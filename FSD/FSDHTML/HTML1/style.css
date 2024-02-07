@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+ul{
+    background-color: aquamarine;
+    list-style-type: square;
+}
+img{
+    width:200px;
+    height:auto;
+}
+
+/* if you want style individual h1 tag */
+#head1{
+    text-align: right;
+}
+/* if you want to style collectively */
+.group2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+/* Box Model */
+
+/* table border and margin */
+.tab1{
+    border: 1px solid red;
+    margin: 20px 400px 100px 300px;
+}
+.tab1 tr td{
+    border: 1px solid red;
+    padding: 5px 6px 5px 8px;
+}
+/* cursor hover to click me color changes */
+a:hover{
+    color: black;
+}
+
+body{
+    /* background-image:url("images/tree image.jpg"); */
+    /* background-size: cover; */
+    background-color:antiquewhite;
+}
